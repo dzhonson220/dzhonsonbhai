@@ -172,6 +172,7 @@ function Shell() {
             </div>
             <div className="flex items-center gap-2">
               <div className="hidden items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-[11px] text-muted-foreground sm:flex"><Command size={13} /> <span>Shared workspace</span></div>
+              <a href="https://rzp.io/rzp/TZdRzKl" target="_blank" rel="noopener noreferrer" aria-label="Subscribe (opens in a new tab)" className="inline-flex h-9 items-center gap-1 rounded-lg bg-[#e7a16b] px-3 text-[12px] font-semibold text-[#203d3a] transition hover:bg-[#edb27f] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#203d3a] focus-visible:ring-offset-2" data-testid="link-subscribe">Subscribe <ArrowUpRight size={14} aria-hidden="true" /></a>
               <button onClick={() => openTask()} className="inline-flex h-9 items-center gap-2 rounded-lg bg-[#203d3a] px-3.5 text-[12px] font-semibold text-white transition hover:bg-[#2d514c]" data-testid="button-new-task"><Plus size={15} /> <span className="hidden sm:inline">New task</span></button>
               <div className="grid size-8 place-items-center rounded-full border border-[#d8b08c] bg-[#f2e4d4] text-[10px] font-bold text-[#6c4b34]">AS</div>
             </div>
